@@ -1,34 +1,31 @@
-body{
-    margin:0;
-    overflow:hidden;
-    font-family:Arial;
+body {
+    margin: 0;
+    overflow: hidden;
 }
 
-#score{
-    position:absolute;
-    top:20px;
-    left:20px;
-    color:white;
-    font-size:28px;
-    z-index:100;
+canvas {
+    display: block;
 }
 
-#controls{
-    position:absolute;
-    bottom:30px;
-    width:100%;
-    display:flex;
-    justify-content:space-between;
-    padding:0 30px;
-    box-sizing:border-box;
-    z-index:100;
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-size: 25px;
+    z-index: 10;
 }
 
-button{
-    width:80px;
-    height:80px;
-    border:none;
-    border-radius:50%;
-    font-size:35px;
-    background:rgba(255,255,255,.5);
+#controls {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+}
+
+button {
+    font-size: 40px;
+    padding: 10px 25px;
+    margin: 10px;
 }
