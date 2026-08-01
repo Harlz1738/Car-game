@@ -1,0 +1,34 @@
+body{
+    margin:0;
+    overflow:hidden;
+    font-family:Arial;
+}
+
+#score{
+    position:absolute;
+    top:20px;
+    left:20px;
+    color:white;
+    font-size:28px;
+    z-index:100;
+}
+
+#controls{
+    position:absolute;
+    bottom:30px;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    padding:0 30px;
+    box-sizing:border-box;
+    z-index:100;
+}
+
+button{
+    width:80px;
+    height:80px;
+    border:none;
+    border-radius:50%;
+    font-size:35px;
+    background:rgba(255,255,255,.5);
+}
