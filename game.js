@@ -1,4 +1,4 @@
-alert("Game JS loaded!");
+alert(typeof THREE);
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x87ceeb);
 
